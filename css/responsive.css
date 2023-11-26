@@ -1,0 +1,915 @@
+
+/* css media queary start */
+
+/* ****
+*   scren resulation : 279 to 379px 
+*   most of the folding mobile phone --- galaxy fold
+*
+*
+*/
+
+
+
+@media (min-width: 279px) and (max-width:319px) {
+    /* css start */
+    .header .navbar-toggler{
+        background: #08c ;
+        border-radius: 0px ;
+    }
+    .header .navbar-toggler .fa-bars{
+        color: #fff;
+    }
+    
+    .header .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0px ;
+        font-size: 8px ;
+    }
+    
+    .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: url(../images/line.png) ;
+    background-position: center left;
+    background-repeat: no-repeat ; 
+    }
+    
+    .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    background: url(../images/line.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+    }
+    .header .nav-link.active{
+    background: url(../images/line.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+    }
+    .banner{
+        padding: 15px 0px ;
+    }
+    .banner h4{
+    font-size: 8px ;
+    }
+    
+    .banner h1{
+     font-size: 22px ;
+    }
+    .banner P{
+        font-size: 8px ;
+    }
+    .banner .action-buttons{
+        padding: 10px 0px 0px 10px ;
+    }
+    
+    .banner .action-buttons .btn-primary{
+        padding: 6px 7px ;
+        font-size: 8px ;
+        margin:  0px 5px 0px 0px ;
+    } 
+    .banner .action-buttons{
+        padding: 10px 0px 0px 5px ;
+    }
+    
+    .banner .action-buttons .btn-info{
+        padding: 6px 7px ;
+        font-size: 8px ;
+    } 
+    
+    
+    
+    
+    /* css end */
+    
+    
+    }
+    /* ****
+    *   scren resulation : 320 to 480px 
+    *   most of the mobile phone 
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 320px) and (max-width:480px) {
+    /* css start */
+            .header .navbar-toggler{
+                background: #08c ;
+                border-radius: 0px ;
+            }
+            .header .navbar-toggler .fa-bars{
+                color: #fff;
+            }
+        
+           .header .navbar-expand-lg .navbar-nav .nav-link{
+                margin: 0px ;
+                font-size: 14px ;
+           }
+    
+           .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+            background: url(../images/line.png) ;
+            background-position: center left;
+            background-repeat: no-repeat ; 
+           }
+    
+          .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+            background: url(../images/line.png) ;
+            background-position: left bottom;
+            background-repeat: no-repeat ; 
+           }
+           .header .nav-link.active{
+            background: url(../images/line.png) ;
+            background-position: left bottom;
+            background-repeat: no-repeat ; 
+           }
+           .banner{
+                padding: 30px 0px ;
+           }
+           .banner h4{
+            font-size: 14px ;
+           }
+    
+           .banner h1{
+             font-size: 32px ;
+           }
+           .banner P{
+                font-size: 12px ;
+           }
+           .banner .action-buttons{
+                padding: 20px 0px 0px 10px ;
+           }
+    
+           .banner .action-buttons .btn-primary{
+                padding: 12px 15px ;
+                font-size: 13px ;
+                margin:  0px 10px 0px 0px ;
+           } 
+           .banner .action-buttons{
+                padding: 20px 0px 0px 10px ;
+            }
+    
+            .banner .action-buttons .btn-info{
+                padding: 12px 15px ;
+                font-size: 13px ;
+            } 
+            .feature{
+                width: 100% ;
+                padding: 30px 0px ;
+            }
+            .feature .title {
+                padding: 0px 0px 20px;
+            }
+            
+            .feature .title h4{
+                font-size: 12px ;
+            }
+            .feature .title h1{
+                font-size: 26px ;
+            }
+            .inner-icon h4 {
+                font-size: 20px ;
+                font-weight: 500;
+                color: #000;
+            }
+            .inner-icon p {
+                font-size: 12px;
+                color: #999;
+                line-height: 1.3em;
+            }
+            .about-long {
+                width: 100%;
+                padding: 30px 0px 20px;
+                border-top: 1px solid #eee;
+            }
+            .about-long .title h4 {
+                font-size: 12px ;
+                
+            }
+    
+            .about-long .title h1{
+                font-size: 26px ;
+            }
+            .about-long p {
+                font-size: 12px;
+                line-height: 1.7em;
+                color: #999;
+                margin: 5px 0px 20px;
+            }
+    
+            .about-long ul li {
+                list-style: none;
+                color: #000;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 1.7em;
+                margin: 0px 0px 7px;
+            }
+            .about-short{
+                padding: 30px 0px 20px ;
+            }
+            .about-short  .title h4 {
+                color: #008ED6;
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            .about-short .title h1{
+                font-size: 26px ;
+            }
+            .about-short p {
+                font-size: 12px;
+                line-height: 1.7em;
+                color: #999;
+                margin: 5px 0px 20px;
+            }
+            .testimonial {
+                width: 100%;
+                padding: 30px 0px;
+            }
+            .testimonial h4{
+                font-size: 12px ;
+            }
+            .testimonial h1{
+                font-size: 26px ;
+            }
+            .testimonial .title {
+                text-align: center;
+                padding: 0px 0px 20px;
+            }
+            .testimonial .owl-carousel .item h4 {
+                font-size: 12px;
+                font-weight: 500;
+                font-style: italic;
+                color: #fff;
+                line-height: 1.4em;
+                margin: 0px 0px 20px;
+            }
+            .testimonial .owl-carousel .item p {
+                font-size: 12px;
+            }
+            .testimonial .owl-carousel .item h6 {
+                font-size: 15px;
+                font-weight: 600 ;
+            }
+            .testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+                margin-top: 30px;
+            }
+            .eye-catcher h1{
+                font-size: 19px ;
+            }
+            .eye-catcher h1 span{
+                font-size: 19px ;
+            }
+            .eye-catcher .action-buttons{
+                padding: 20px 0px 0px 10px ;
+           }
+    
+           .eye-catcher .action-buttons .btn-primary{
+                padding: 12px 15px ;
+                font-size: 13px ;
+                
+           } 
+           .eye-catcher .action-buttons{
+                padding: 10px 0px 0px 20px ;
+            }
+    
+            .eye-catcher .action-buttons .btn-info{
+                padding: 12px 15px ;
+                font-size: 13px ;
+              
+            } 
+            .eye-catcher .action-buttons {
+                text-align: left;
+                margin: px 0px 0px 0px ;
+            }
+            .pricing{
+                padding: 30px 0px ;
+            }
+            .pricing .title{
+                padding: 0px 0px 30px
+            }
+            
+            .pricing h4{
+                font-size: 12px ;
+            }
+            .pricing h1{
+                font-size: 26px ;
+            }
+            .main-price h1 sup{
+                font-size: 20px ;
+            }
+            .price-head{
+                padding: 10px 0px ;
+            }
+            .price-head h2{
+                font-size: 26px ;
+            }
+            .price-box{
+                margin: 0px 0px 25px 0px ;
+            }
+            .main-price p {
+                font-size: 12px;
+                line-height: 1.7em;
+                margin: 15px 0px 0px;
+                color: #999;
+            }
+            .price-content P {
+                font-size: 12px;
+                line-height: 1.7em;
+                margin: 0px 0px 10px;
+                color: #999;
+            }
+            .price-content .btn-primary{
+                font-size: 12px ;
+            }
+            .contact-us {
+                padding: 30px 0px ;
+            }
+            .contact-us h4{
+                font-size: 12px ;
+            }
+            .contact-us h1{
+                font-size: 26px ;
+            }
+            .contact-us .title{
+                padding: 0px 0px 30px ;
+            }
+            .info p{
+                font-size: 12px ;
+            }
+            .contact{
+                padding: 25px 30px ;
+            }
+    
+            .contact .form-control{
+                padding: 12px 10px ;
+                font-size: 12px ;
+            }
+            .contact .btn-primary{
+                font-size: 12px ;
+            }
+            .contact .btn-primary{
+                padding: 12px 15px ;
+                font-size: 13px ;
+              
+           } 
+     /* css end */  
+    }
+    
+    
+    /* ****
+    *   scren resulation : 320 to 480px 
+    *   most of the mobile phone and low resulation tab
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 481px) and (max-width:767px) {
+        /* css start */
+        .header .navbar-toggler{
+            background: #08c ;
+            border-radius: 0px ;
+        }
+        .header .navbar-toggler .fa-bars{
+            color: #fff;
+        }
+    
+       .header .navbar-expand-lg .navbar-nav .nav-link{
+            margin: 0px ;
+            font-size: 18px ;
+       }
+    
+       .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+        background: url(../images/line.png) ;
+        background-position: center left;
+        background-repeat: no-repeat ; 
+       }
+    
+      .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+        background: url(../images/line.png) ;
+        background-position: left bottom;
+        background-repeat: no-repeat ; 
+       }
+       .header .nav-link.active{
+        background: url(../images/line.png) ;
+        background-position: left bottom;
+        background-repeat: no-repeat ; 
+       }
+       .banner{
+            padding: 50px 0px ;
+       }
+       .banner h4{
+        font-size: 14px ;
+       }
+    
+       .banner h1{
+         font-size: 34px ;
+       }
+       .banner P{
+            font-size: 13px ;
+       }
+       .banner .action-buttons{
+            padding: 20px 0px 0px 10px ;
+       }
+    
+       .banner .action-buttons .btn-primary{
+            padding: 12px 15px ;
+            font-size: 13px ;
+            margin:  0px 10px 0px 0px ;
+       } 
+       .banner .action-buttons{
+            padding: 20px 0px 0px 10px ;
+        }
+    
+        .banner .action-buttons .btn-info{
+            padding: 12px 15px ;
+            font-size: 13px ;
+        } 
+        .feature{
+            width: 100% ;
+            padding: 35px 0px ;
+        }
+        .feature .title {
+            padding: 0px 0px 25px;
+        }
+        
+        .feature .title h4{
+            font-size: 13px ;
+        }
+        .feature .title h1{
+            font-size: 28px ;
+        }
+        .inner-icon h4 {
+            font-size: 22px ;
+            font-weight: 500;
+            color: #000;
+        }
+        .inner-icon p {
+            font-size: 13px;
+            color: #999;
+            line-height: 1.3em;
+        }
+        .about-long {
+            width: 100%;
+            padding: 33px 0px 23px;
+            border-top: 1px solid #eee;
+        }
+        .about-long .title h4 {
+            font-size: 13px ;
+            
+        }
+    
+        .about-long .title h1{
+            font-size: 28px ;
+        }
+        .about-long p {
+            font-size: 13px;
+            line-height: 1.7em;
+            color: #999;
+            margin: 5px 0px 23px;
+        }
+    
+        .about-long ul li {
+            list-style: none;
+            color: #000;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.7em;
+            margin: 0px 0px 8px;
+        }
+        .about-short{
+            padding: 35px 0px 25px ;
+        }
+        .about-short  .title h4 {
+            color: #008ED6;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .about-short .title h1{
+            font-size: 28px ;
+        }
+        .about-short p {
+            font-size: 13px;
+            line-height: 1.7em;
+            color: #999;
+            margin: 5px 0px 23px;
+        }
+        .testimonial {
+            width: 100%;
+            padding: 35px 0px;
+        }
+        .testimonial h4{
+            font-size: 13px ;
+        }
+        .testimonial h1{
+            font-size: 28px ;
+        }
+        .testimonial .title {
+            text-align: center;
+            padding: 0px 0px 23px;
+        }
+        .testimonial .owl-carousel .item h4 {
+            font-size: 13px;
+            font-weight: 500;
+            font-style: italic;
+            color: #fff;
+            line-height: 1.4em;
+            margin: 0px 0px 23px;
+        }
+        .testimonial .owl-carousel .item p {
+            font-size: 13px;
+        }
+        .testimonial .owl-carousel .item h6 {
+            font-size: 16px;
+            font-weight: 600 ;
+        }
+        .testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+            margin-top: 33px;
+        }
+        .eye-catcher h1{
+            font-size: 20px ;
+        }
+        .eye-catcher h1 span{
+            font-size: 20px ;
+        }
+        .eye-catcher .action-buttons{
+            text-align: center;
+       }
+    
+       .eye-catcher .action-buttons .btn-primary{
+            padding: 13px 17px ;
+            font-size: 14px ;
+            margin:  0px 12px 0px 0px ;
+       } 
+    
+        .eye-catcher .action-buttons .btn-info{
+            padding: 13px 16px ;
+            font-size: 14px ;
+            margin-right: 38px ;
+        } 
+        .pricing{
+            padding: 35px 0px ;
+        }
+        .pricing .title{
+            padding: 0px 0px 33px
+        }
+        .pricing h4{
+            font-size: 13px ;
+        }
+        .pricing h1{
+            font-size: 28px ;
+        }
+        .main-price h1 sup{
+            font-size: 22px ;
+        }
+        .price-head{
+            padding: 12px 0px ;
+        }
+        .price-head h2{
+            font-size: 28px ;
+        }
+        .price-box{
+            margin: 0px 0px 27px 0px ;
+        }
+        .main-price p {
+            font-size: 13px;
+            line-height: 1.7em;
+            margin: 17px 0px 0px;
+            color: #999;
+        }
+        .price-content P {
+            font-size: 13px;
+            line-height: 1.7em;
+            margin: 0px 0px 12px;
+            color: #999;
+        }
+        .price-content .btn-primary{
+            font-size: 13px ;
+        }
+        .contact-us {
+            padding: 33px 0px ;
+        }
+        .contact-us h4{
+            font-size: 13px ;
+        }
+        .contact-us h1{
+            font-size: 28px ;
+        }
+        .contact-us .title{
+            padding: 0px 0px 33px ;
+        }
+        .info p{
+            font-size: 12px ;
+        }
+        .contact{
+            padding: 27px 33px ;
+        }
+    
+        .contact .form-control{
+            padding: 13px 11px ;
+            font-size: 13px ;
+        }
+        .contact .btn-primary{
+            font-size: 13px ;
+        }
+        .contact .btn-primary{
+            padding: 13px 16px ;
+            font-size: 14px ;
+          
+       } 
+        /* css end */
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* ****
+    *   scren resulation : 768 to 1024px 
+    *   most of the tablates notbook i pads
+    *
+    *
+    */
+    
+    
+    
+    @media (min-width: 768px) and (max-width:1024px) {
+        /* css start */
+        .header .navbar-toggler{
+            background: #08c ;
+            border-radius: 0px ;
+        }
+        .header .navbar-toggler .fa-bars{
+            color: #fff;
+        }
+    
+       .header .navbar-expand-lg .navbar-nav .nav-link{
+            margin: 0px ;
+            font-size: 20px ;
+       }
+    
+       .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+        background: url(../images/line.png) ;
+        background-position: center left;
+        background-repeat: no-repeat ; 
+       }
+    
+      .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+        background: url(../images/line.png) ;
+        background-position: left bottom;
+        background-repeat: no-repeat ; 
+       }
+       .header .nav-link.active{
+        background: url(../images/line.png) ;
+        background-position: left bottom;
+        background-repeat: no-repeat ; 
+       }
+       .banner{
+            padding: 50px 0px ;
+       }
+        
+        .banner h4{
+        font-size: 16px ;
+        }
+    
+        .banner h1{
+        font-size: 38px ;
+        }
+        .banner P{
+            font-size: 20px ;
+        }
+        .banner .action-buttons{
+            padding: 25px 0px 0px 15px ;
+        }
+    
+        .banner .action-buttons .btn-primary{
+            padding: 15px 18px ;
+            font-size: 14px ;
+            margin:  0px 20px 0px 0px ;
+        } 
+        .banner .action-buttons{
+            padding: 30px 0px 0px 10px ;
+        }
+    
+        .banner .action-buttons .btn-info{
+            padding: 22px 25px ;
+            font-size: 14px ;
+        } 
+    
+        .feature{
+            width: 100% ;
+            padding: 50px 0px ;
+        }
+        .feature .title {
+            padding: 0px 0px 35px;
+        }
+    
+        .feature .title h4{
+            font-size: 16px ;
+        }
+        .feature .title h1{
+            font-size: 35px ;
+        }
+        .inner-icon h4 {
+            font-size: 24px ;
+            font-weight: 500;
+            color: #000;
+        }
+        .inner-icon p {
+            font-size: 20px;
+            color: #999;
+            line-height: 1.3em;
+        }
+        .about-long {
+            width: 100%;
+            padding: 40px 0px 33px;
+            border-top: 1px solid #eee;
+        }
+        .about-long .title h4 {
+            font-size: 16px ;
+            
+        }
+    
+        .about-long .title h1{
+            font-size: 35px ;
+        }
+        .about-long p {
+            font-size: 20px;
+            line-height: 1.7em;
+            color: #999;
+            margin: 15px 0px 33px;
+        }
+    
+        .about-long ul li {
+            list-style: none;
+            color: #000;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.7em;
+            margin: 0px 0px 16px;
+        }
+        .about-short{
+            padding: 50px 0px 35px ;
+        }
+        .about-short  .title h4 {
+            color: #008ED6;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .about-short .title h1{
+            font-size: 30px ;
+        }
+        .about-short p {
+            font-size: 20px;
+            line-height: 1.7em;
+            color: #999;
+            margin: 15px 0px 33px;
+        }
+        .testimonial {
+            width: 100%;
+            padding: 70px 0px;
+        }
+        .testimonial h4{
+            font-size: 16px ;
+        }
+        .testimonial h1{
+            font-size: 35px ;
+        }
+        .testimonial .title {
+            text-align: center;
+            padding: 0px 0px 33px;
+        }
+        .testimonial .owl-carousel .item h4 {
+            font-size: 16px;
+            font-weight: 500;
+            font-style: italic;
+            color: #fff;
+            line-height: 1.4em;
+            margin: 0px 0px 33px;
+        }
+        .testimonial .owl-carousel .item p {
+            font-size: 20px;
+        }
+        .testimonial .owl-carousel .item h6 {
+            font-size: 18px;
+            font-weight: 600 ;
+        }
+        .testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+            margin-top: 43px;
+        }
+        .eye-catcher{
+            text-align: center ;
+        }
+        .eye-catcher h1{
+            font-size: 35px ;
+        }
+        .eye-catcher h1 span{
+            font-size: 35px ;
+        }
+        
+        .eye-catcher .action-buttons {
+                text-align: center;
+        }
+    
+        .eye-catcher .action-buttons .btn-primary{
+            padding: 23px 27px ;
+            font-size: 14px ;
+            margin:  0px 22px 0px 0px ;
+        } 
+        .eye-catcher .action-buttons{
+            padding: 22px 0px 0px 33px ;
+        }
+    
+        .eye-catcher .action-buttons .btn-info{
+            padding: 23px 26px ;
+            font-size: 15px ;
+            margin-right: 48px ;
+        } 
+        .pricing{
+            padding: 50px 0px ;
+        }
+        .pricing .title{
+            padding: 0px 0px 43px
+        }
+        .pricing h4{
+            font-size: 16px ;
+        }
+    
+        .pricing h1{
+            font-size: 35px ;
+        }
+        .main-price h1 sup{
+            font-size: 24px ;
+        }
+        .price-head{
+            padding: 15px 0px ;
+        }
+        .price-head h2{
+            font-size: 30px ;
+        }
+        .price-box{
+            margin: 0px 0px 37px 0px ;
+        }
+        .main-price p {
+            font-size: 20px;
+            line-height: 1.7em;
+            margin: 27px 0px 0px;
+            color: #999;
+        }
+        .price-content P {
+            font-size: 20px;
+            line-height: 1.7em;
+            margin: 0px 0px 22px;
+            color: #999;
+        }
+        .price-content .btn-primary{
+            font-size: 16px ;
+        }
+        .contact-us {
+            padding: 50px 0px ;
+        }
+        .contact-us h4{
+            font-size: 16px ;
+        }
+        .contact-us h1{
+            font-size: 35px ;
+        }
+        .contact-us .title{
+            padding: 0px 0px 43px ;
+        }
+        .info p{
+            font-size: 20px ;
+        }
+        .contact{
+            padding: 37px 43px ;
+        }
+    
+        .contact .form-control{
+            padding: 23px 21px ;
+            font-size: 14px ;
+        }
+        .contact .btn-primary{
+            font-size: 14px ;
+        }
+        .contact .btn-primary{
+            padding: 23px 26px ;
+            font-size: 15px ;
+        
+        }  
+            /* css end */
+            
+            
+        }
+        
